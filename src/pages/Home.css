@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Home{
+    margin: 100px;
+    display: flex;
+    color: white;
+}
+.home1 h1{
+    font-size: 50px ;
+}
+.home1 p{
+  margin: 32px 0px;
+}
+.home1 h1 span{
+    color: rgb(188, 255, 188);
+} 
+.btn{
+    cursor: pointer;
+    color: black;
+    background: white;
+    padding: 5px 14px;
+    border-radius: 8px;
+}
+.container{
+    position: relative;
+    min-width: 400px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.element{
+    scale: 0.75;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: rgb(188, 255, 188);
+}
+
+@media (max-width: 768px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .Home {
+        margin: 51px 12px;
+        flex-wrap: wrap;
+    }
+
+    .flex{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}

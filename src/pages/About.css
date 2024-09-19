@@ -1,0 +1,10 @@
+body{
+    box-sizing: border-box;
+}
+.about h1{
+    font-size: 50px ;
+}
+.about h1 span{
+    color: rgb(188, 255, 188);
+    margin-bottom: 34px;
+}
